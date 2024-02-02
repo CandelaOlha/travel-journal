@@ -1,1 +1,58 @@
 @import "../styles/_reset.css";
+
+.card {
+  align-items: center;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.card-image {
+  margin: 20px;
+}
+
+.card-info {
+  color: #2b283a;
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+}
+
+.location-data {
+  align-items: center;
+  display: flex;
+}
+
+.location-icon {
+  color: #f55a5a;
+  font-size: 20px;
+}
+
+.location-name {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.location-link {
+  color: #918e9b;
+  font-size: 12px;
+}
+
+.card-name {
+  font-size: 24px;
+  margin: 12px 0;
+}
+
+.card-date {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 1.4;
+}
