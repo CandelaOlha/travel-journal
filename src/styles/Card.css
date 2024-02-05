@@ -8,8 +8,17 @@
   padding: 20px;
 }
 
-.card-image {
+.card-image-container {
+  border-radius: 10px;
+  height: 168px;
   margin: 20px;
+  overflow: hidden;
+  width: 130px;
+}
+
+.card-image {
+  border-radius: 10px;
+  max-width: 100%;
 }
 
 .card-info {
@@ -55,4 +64,18 @@
 .card-description {
   font-size: 14px;
   line-height: 1.4;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 635px) {
+  .card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .card-image-container {
+    height: 240px;
+    margin: 20px 0;
+    width: 182px;
+  }
 }
